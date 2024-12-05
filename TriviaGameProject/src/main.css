@@ -67,3 +67,95 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+body {
+  color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  background-image: url("../public/back-img-7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.game-login{
+  margin-top: 20%;
+}
+.trivia-name{
+  color: white;
+}
+.game-login-text{
+  font-size: 20px;
+}
+.game-password{
+  font-size: 20px;
+}
+.login-btn{
+  font-size: 20px;
+  
+}
+.login-btn:hover{
+  background-color: blue;
+}
+
+
+.question{
+  font-size: 25px;
+  
+
+}
+.h3-ques{
+  
+
+}
+.ans-btn{
+  background-color: yellow;
+  border-radius: 2px solid black;
+
+}
+
+.ans-btn:hover{
+  background-color: green;
+
+}
+.alert .wrong{
+  color: red;
+
+}
+.triv-g{
+
+
+}
+.h1-name{
+  font-size: 30px;
+  
+}
+.h2-score{
+
+}
+.h2-score:hover{
+  color: rgb(184, 9, 125);
+  font-size: 25px;
+  
+}
+.logout-btn{
+
+
+}
+.logout-btn:hover{
+  font-size: 30px;
+  color: red;
+}
+.game-over{
+  color: red;
+}
+.h2-started{
+  font-size: 25px;
+}
