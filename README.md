@@ -1,2 +1,1 @@
-# TriviaGameProject
-TriviaGameProject
+# react-game
