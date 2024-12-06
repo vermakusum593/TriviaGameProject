@@ -14,7 +14,7 @@ const TriviaGame = () => {
 
   const loadQuestion = async () => {
     setLoading(true);
-    setTimer(initialTime); // Zamanlayıcıyı sıfırla
+    setTimer(initialTime); 
     try {
       const response = await fetch("https://the-trivia-api.com/api/questions?limit=1");
       const [data] = await response.json();
