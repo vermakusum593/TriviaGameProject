@@ -40,7 +40,7 @@ const Login = () => {
 
   const createUser = () => {
     localStorage.setItem(username, password);
-    setSuccessMsg(`${username} created successfully, login to start the game`);
+    setSuccessMsg(`${username} created successfully`);
   };
 
   const openRegisterForm = () => {
@@ -113,7 +113,12 @@ const Login = () => {
             onBlur={(e) => verifyPassword()}
           />
           {error && <span style={{ color: "red" }}>{error}</span>}
-          {successMsg && <span style={{ color: "green" }}>{successMsg}</span>}
+          {successMsg && (
+            <span style={{ color: "green" }}>
+              {successMsg}&nbsp;&nbsp;&nbsp;
+              <a href="/">Click here</a> to login
+            </span>
+          )}
           <div className="btn-container">
             <button onClick={createUser} disabled={!enableRegisterBtn}>
               Register
