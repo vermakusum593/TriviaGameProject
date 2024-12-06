@@ -116,7 +116,7 @@ button {
 
 }
 .ans-btn{
-  background-color: yellow;
+  background-color: purple;
   border-radius: 2px solid black;
 
 }
@@ -151,7 +151,7 @@ button {
 }
 .logout-btn:hover{
   font-size: 30px;
-  color: red;
+  color: rgb(83, 3, 52);
 }
 .game-over{
   color: red;
